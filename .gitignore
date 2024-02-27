@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché de pycodestyle
+.pycodestyle
+
+# Directorio de entorno virtual creado con virtualenv o venv
+.venv/
+env/
+ENV/
+
+# Dependencias de Python
+# Si estás utilizando pipenv para gestionar las dependencias, también añade Pipfile.lock
+# Si estás utilizando Poetry, añade pyproject.toml y poetry.lock
+# Si estás utilizando Pip, añade requirements.txt
+# Si estás utilizando conda, añade environment.yml
+*.pyc
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de configuración de sistemas operativos
+.DS_Store
+Thumbs.db
